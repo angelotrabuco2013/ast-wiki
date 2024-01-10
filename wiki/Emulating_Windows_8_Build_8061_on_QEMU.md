@@ -1,5 +1,5 @@
 # Emulating Windows 8 Build 8061 on QEMU
-### 1. Patching files
+## Patching files
 HAL: 
 ```diff
 - HalpAcpiGetTable(HalpTimerLoaderBlock, 'TIGE', NULL, NULL);
@@ -62,8 +62,8 @@ DWORD CDwmAppHost::VerifyGraphicsCapabilities(MIL_CHANNEL hChannel, BOOL fIsBitm
 * The original binaries for the ACPI, SD bus and partition management drivers, as well as binaries for the boot manager and boot loader can be used under emulation.
 * Reapply the registry values outlined above after setup completes the second phase of setup to prevent an ```INACCESSIBLE_BOOT_DEVICE``` bugcheck loop, as the respective driver enumerator is removed from the Windows registry during hardware detection. This issue only occurs once and will not recur in subsequent boots after reapplication.
 
-### 2. Installation
+##  Installation
 Install the OS normally. Due to slowdowns on QEMU, installation can take a long time to complete.
 
-### 3. Conclusion
+## Conclusion
 If done correctly, you should have 8061 running on QEMU.
