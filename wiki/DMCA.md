@@ -1,5 +1,6 @@
 # DMCA
 **DMCA takedowns?** Please read the following:
+
 The platform respects the intellectual property of this wiki, and our team. If you believe that your work has been copied in a way that constitutes copyright infringement, please report it via e-mail containing the following:
 ```
 Copyright Agent / AST
